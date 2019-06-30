@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-30T09:52:26.139Z",
+        "line": 10,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "demowebshop-login-functionality;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10267029800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on DemoWebShop HomePage",
+            "match": {
+              "location": "LoginTest.user_is_on_DemoWebShop_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2129682000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"pratiksha@test.com\" and \"pratiksha\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pratiksha@test.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"pratiksha\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginTest.user_enter_and_on_login_page(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1139000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be logged in successfully",
+            "match": {
+              "location": "LoginTest.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-30T09:52:38.593Z",
+        "line": 11,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "demowebshop-login-functionality;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9438897800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on DemoWebShop HomePage",
+            "match": {
+              "location": "LoginTest.user_is_on_DemoWebShop_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2030550000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter \"rick@test.com\" and \"tester\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rick@test.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"tester\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginTest.user_enter_and_on_login_page(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1006400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be logged in successfully",
+            "match": {
+              "location": "LoginTest.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop Login Functionality",
+    "description": "",
+    "id": "demowebshop-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/DemoWebShopLogin.feature",
+    "tags": []
+  }
+]

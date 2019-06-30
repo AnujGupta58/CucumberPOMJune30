@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.925141">
+<testcase classname="DemoWebShop Login Functionality" name="Title of your scenario outline" time="12.450128">
+<system-out><![CDATA[Given User is on DemoWebShop HomePage.......................................passed
+When User enter "pratiksha@test.com" and "pratiksha" on login page..........passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoWebShop Login Functionality" name="Title of your scenario outline 2" time="11.475013">
+<system-out><![CDATA[Given User is on DemoWebShop HomePage.......................................passed
+When User enter "rick@test.com" and "tester" on login page..................passed
+Then User should be logged in successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
